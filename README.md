@@ -21,7 +21,7 @@
  
  Create: Leave all other settings as default and click "Create bucket".
 
-3. Upload a File (Object)
+2. Upload a File (Object)
  
  Open the Bucket: Click on the name of the bucket you just created in the S3 console list.
  
@@ -37,7 +37,7 @@
  
  Finalize: Click "Upload" at the bottom of the page.
 
-4. Verify and Test (Deliverable Outcome)
+3. Verify and Test (Deliverable Outcome)
 
 Verify Upload: Once the upload is complete, you'll see the file listed in the Objects tab of your bucket. This confirms the successful upload.
 
