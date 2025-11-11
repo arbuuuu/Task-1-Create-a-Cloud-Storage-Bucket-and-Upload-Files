@@ -50,12 +50,16 @@ Success: If you correctly configured the permissions, the file will display or d
 Failure: If you see an "Access Denied" error, the object is private, which is the default secure behavior for S3.
 
 You need to add a "Bucket Policy." This is a simple piece of JSON text that acts as the official guest list for your bucket.
+
+
 {
+  
   "Version": "2012-10-17",
   
   "Statement": [
   
     {
+     
       "Sid": "PublicReadGetObject",
       
       "Effect": "Allow",
